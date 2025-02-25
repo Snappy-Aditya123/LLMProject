@@ -1,0 +1,86 @@
+
+"Hey there! 👋 I am a  uni student and this is my Career Advice App project! Built with Streamlit, Ollama, LangChain, LLMs, and a Vector DB. It's still a work-in-progress, but here's what I have so far! 🚀
+
+🎯 What does it do?
+
+The app helps users get career advice using the power of LLMs. Right now, it has two main features:
+
+CV Evaluator Agent 📋
+
+You can upload your CV.
+
+The agent reads it and rates it based on certain criteria.
+
+Gives you tips to improve it!
+
+Career Advice Chatbot 🤖
+
+A chatbot that takes your evaluated CV.
+
+Helps you with career advice based on your CV.
+
+Uses a RAG system (retrieval-augmented generation) to pull in relevant info from a Vector DB.
+
+🔮 Future Plans
+
+I’ve got some big ideas for the next steps:
+
+Integrate Reed.co.uk API 📊
+
+To pull live job postings and give tailored advice.
+
+Add News Search APIs 📰
+
+So the bot can stay updated with the latest in the job market.
+
+Improve RAG System 💾
+
+Make the Vector DB even better with more data.
+
+⚙️ Tech Stack
+
+Frontend: Streamlit 🖥️
+
+LLMs: Ollama + LangChain 🧠
+
+Backend: Python 🐍
+
+Database: Vector DB (using LangChain) 📂
+
+RAG System: For better context retrieval 🔍
+
+🏗️ How it works
+
+Upload your CV ➔ Evaluator Agent rates it ✅
+
+Chat with the bot ➔ Get advice based on your CV 🤝
+
+(In future) ➔ Get job listings and market insights 🌐
+
+🚀 How to Run It Locally
+
+Clone the repo
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+you need ollama support too, so install it from here https://ollama.com/download
+
+You can use any model replace the model anmes in the code
+
+Run the app:
+
+streamlit run app.py
+
+Upload your CV and start chatting! 🎉
+
+🙏 A Little Note
+
+This is still in progress, and I’m learning as I go! 🛠️ If you’ve got any suggestions or ideas, feel free to open an issue or submit a PR. Let’s make this awesome together! 💪
+
+Thanks for checking this out! ❤️
+
+– trying to make sense of LLMs and life 😅
+
+"
